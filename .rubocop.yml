@@ -1,6 +1,7 @@
 # https://rubocop.readthedocs.io/
 AllCops:
   Include:
+    - '**/Gemfile'
     - '**/Rakefile'
     - config.ru
   Exclude:
@@ -60,7 +61,7 @@ Layout/IndentHash:
 
 # Use rails indentation
 Layout/IndentationConsistency:
-  EnforcedStyle: rails
+  EnforcedStyle: normal
 
 # Do not trail do end blocks with extra function calls
 Style/MethodCalledOnDoEndBlock:
@@ -101,5 +102,5 @@ Metrics/BlockLength:
     - 'spec/**/*_spec.rb'
 
 # Do not suggest to rename `has_x?` to `x?`
-Style/PredicateName:
+Naming/PredicateName:
   Enabled: false
