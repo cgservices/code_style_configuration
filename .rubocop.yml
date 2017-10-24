@@ -60,7 +60,7 @@ Layout/IndentHash:
 
 # Use rails indentation
 Layout/IndentationConsistency:
-  EnforcedStyle: rails
+  EnforcedStyle: normal
 
 # Do not trail do end blocks with extra function calls
 Style/MethodCalledOnDoEndBlock:
