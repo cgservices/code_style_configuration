@@ -1,0 +1,11 @@
+sudo: required
+matrix:
+  include:
+    - language: ruby
+      rvm:
+        - 2.2.2
+      script:
+        - bundle exec rubocop example.rb
+    - language: node_js
+      script:
+        -  ./node_modules/.bin/jshint example.js
