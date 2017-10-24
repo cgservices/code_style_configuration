@@ -1,6 +1,7 @@
 # https://rubocop.readthedocs.io/
 AllCops:
   Include:
+    - '**/Gemfile'
     - '**/Rakefile'
     - config.ru
   Exclude:
