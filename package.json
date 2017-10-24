@@ -1,0 +1,22 @@
+{
+  "name": "codestyle_configuration",
+  "version": "1.0.0",
+  "description": "Creative Group code style",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgservices/code_style_configuration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgservices/code_style_configuration/issues"
+  },
+  "homepage": "https://github.com/cgservices/code_style_configuration#readme",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
+}
